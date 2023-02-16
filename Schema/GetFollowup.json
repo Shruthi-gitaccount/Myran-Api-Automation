@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "academicYear": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "tasks": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "jsonValue": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "jsonValue"
+          ]
+        }
+      ]
+    },
+    "taskIds": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "numberOfSchools": {
+      "type": "integer"
+    },
+    "numberOfSubmissions": {
+      "type": "integer"
+    },
+    "numberOfParticipants": {
+      "type": "integer"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "startDate",
+    "endDate",
+    "academicYear",
+    "status",
+    "tasks",
+    "taskIds",
+    "numberOfSchools",
+    "numberOfSubmissions",
+    "numberOfParticipants",
+    "createdAt",
+    "description"
+  ]
+}

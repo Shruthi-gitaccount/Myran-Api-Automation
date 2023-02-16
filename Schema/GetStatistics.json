@@ -1,0 +1,263 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "orderIndex": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "images": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "placementPoints": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "x": {
+              "type": "integer"
+            },
+            "y": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "x",
+            "y"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "x": {
+              "type": "integer"
+            },
+            "y": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "x",
+            "y"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "x": {
+              "type": "integer"
+            },
+            "y": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "x",
+            "y"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "x": {
+              "type": "integer"
+            },
+            "y": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "x",
+            "y"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "x": {
+              "type": "integer"
+            },
+            "y": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "x",
+            "y"
+          ]
+        }
+      ]
+    },
+    "answerOptions": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "correctPoint": {
+              "type": "string"
+            },
+            "placedAtPoint": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "type",
+            "correctPoint",
+            "placedAtPoint"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "correctPoint": {
+              "type": "string"
+            },
+            "placedAtPoint": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "type",
+            "correctPoint",
+            "placedAtPoint"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "correctPoint": {
+              "type": "string"
+            },
+            "placedAtPoint": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "type",
+            "correctPoint",
+            "placedAtPoint"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "correctPoint": {
+              "type": "string"
+            },
+            "placedAtPoint": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "type",
+            "correctPoint",
+            "placedAtPoint"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "correctPoint": {
+              "type": "string"
+            },
+            "placedAtPoint": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "type",
+            "correctPoint",
+            "placedAtPoint"
+          ]
+        }
+      ]
+    },
+    "taskInstructions": {
+      "type": "string"
+    },
+    "criteria": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "orderIndex",
+    "type",
+    "title",
+    "subtitle",
+    "description",
+    "images",
+    "placementPoints",
+    "answerOptions",
+    "taskInstructions",
+    "criteria"
+  ]
+}
